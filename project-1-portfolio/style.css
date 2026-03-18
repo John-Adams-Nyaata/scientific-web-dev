@@ -167,14 +167,6 @@ nav h2 a {
     font-weight: 600;
 }
 
-.credibility {
-    font-size: 14px;
-    color: var(--text-muted);
-    margin-bottom: 20px;
-    line-height: 1.5;
-    font-style: italic;
-}
-
 /* ---------------- BUTTONS ---------------- */
 button {
     background-color: var(--primary);
@@ -195,6 +187,62 @@ button:hover {
 .project-card button {
     width: 100%;
     margin-top: auto;
+}
+
+/* ---------------- PROJECT BADGES & HIERARCHY ---------------- */
+.status {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 12px;
+    background: #e0ecff;
+    color: var(--primary-dark);
+}
+
+.status.research {
+    background: #e8f5e9;
+    color: #1b5e20;
+}
+
+.status.development {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.project-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.project-card p {
+    font-size: 15px;
+}
+
+.project-card button.primary-action {
+    background: var(--primary);
+}
+
+.project-card button.secondary-action {
+    background: #111827;
+}
+
+.project-card button.secondary-action:hover {
+    background: #000000;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.method,
+.dataset {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
 }
 
 /* ---------------- RESPONSIVE ---------------- */
